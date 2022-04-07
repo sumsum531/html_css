@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 10px;
+    }
+
+    #div1{
+        display: inline-block;
+        background-color: red;
+    }
+
+    #div2{
+        display: inline-block;
+        background-color: brown;
+        visibility: hidden; /*얘는 자리는 남겨놓는데 보이지만 않는!*/
+        /* display: node;  */ /*얘는 자리까지 제거해버린다.*/
+    }
+
+    #div3{
+        display: inline-block;
+        background-color: blue;
+    }
+
+    #img1{
+        display: block;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div id = "div1">div1</div>
+    <div id = "div2">div2</div>
+    <div id = "div3">div3</div>
+
+    <img id="img1" src="/images/photo1.jpg" width="100" height="100" />
+    <img id="img1" src="/images/photo2.jpg" width="100" height="100" />
+</body>
+</html>

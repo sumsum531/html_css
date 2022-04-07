@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+
+        div#main{
+            text-align: center;
+            width: 100%;
+        }
+
+        #menu{
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+        }
+
+        section{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        nav{
+            background-color: #ccc;
+            justify-content: center;
+            margin-top: 2px;
+        }
+
+        article{
+            background-color: powderblue;
+            justify-content: center;
+            margin-left: 10px;
+        }
+
+        footer{
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background-color: rgb(163, 134, 163);
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="/images/layout_images/01.png">
+        </header>
+
+        <div id="main">
+            <img src="/images/layout_images/02.png">
+        </div>
+
+        <div id="menu">
+            <img src="/images/layout_images/03.png">
+        </div>
+
+        <section>
+            <nav>
+                <img src="/images/layout_images/04.png">
+                
+            </nav>
+            <article>
+                <img src="/images/layout_images/07.png">
+            </article>
+        </section>
+
+        <section>
+            <nav>
+                <img src="/images/layout_images/05_1.png">
+            </nav> 
+        </section>
+
+        <footer>
+            Footer
+        </footer>
+    </div>
+</body>
+</html>

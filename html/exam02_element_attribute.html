@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h3>링크 태그</h3>
+    <!-- 링크 태그 -->
+    <a href="https://www.w3schools.com">Visit Website_1</a><br/>
+    <a href="https://www.w3schools.com" target="_blank">Visit Website_2</a> <br/>
+    <a href="http://localhost:5500/html/exam01_html_structure.html" >exam01_html_structure</a><br/>
+
+    <!--현재 URL에서 포트 번호 이전까지 생략!-->
+    <a href="/html/exam01_html_structure.html" >exam01_html_structure</a><br/>
+
+    <!--현재URL에서 상대 경로를 이용하는 방법-->
+    <a href="exam01_html_structure.html" >exam01_html_structure</a><br/>
+    <a href="./exam01_html_structure.html" >exam01_html_structure</a><br/>
+
+    <hr/>
+
+    <h3>이미지 태그</h3>
+    <img src="/images/photo1.jpg"/>
+    <img src="../images/photo1.jpg" width="200"/>
+    <img src="/images/photo1.jpg" width="200" height="200"/>
+    <img src="/images/photo20.jpg" alt="Italian Trulli"/>
+
+    <hr/>
+
+    <h3>제목글 태그</h3>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <hr/>
+
+    <h3>문단 태그</h3>
+    <p>this is a paragraph</p>
+    <p>this is another paragraph</p>
+
+    <hr/>
+
+    <h3>컨테이너 태그</h3> <!--어떠한 내용을 묶어주는 역할을 한다!-->
+    <div style="background-color: blueviolet;">
+        <img src="/images/photo1.jpg"/>
+        <img src="../images/photo1.jpg" width="200"/>
+        <p>this is a paragraph</p>
+        <p>this is another paragraph</p>
+    </div>
+
+    <header style="background-color: turquoise;">
+        <img src="/images/photo1.jpg"/>
+        <img src="../images/photo1.jpg" width="200"/>
+        <p>this is a paragraph</p>
+        <p>this is another paragraph</p>
+    </header>
+
+    <article style="background-color: tomato;">
+        <img src="/images/photo1.jpg"/>
+        <img src="../images/photo1.jpg" width="200"/>
+        <p>this is a paragraph</p>
+        <p>this is another paragraph</p>
+    </article>
+
+    <hr/>
+
+    <h3>테이블 태그</h3>
+    <table style="width: 100%;">
+        <thead>
+            <tr>
+                <th>Title1</th>
+                <th>Title2</th>
+                <th>Title3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Content1</td>
+                <td>Content2</td>
+                <td>Content3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    <button>확인</button>
+                    <button>취소</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr/>
+
+    <h3>목록 태그</h3>
+    <ul><!--순서 없음!-->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol><!--순서 있음!-->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: white;
+        }
+
+        div{
+            background-color: tomato;
+        }
+        .class1{
+            background-color: violet;
+        }
+        #div1{
+            background-color: lightblue;
+        }
+
+        #div2  div{
+            background-color: yellow;
+        }
+
+        #div2 > div{
+            background-color: blue;
+        }
+
+        #div2 .class2{
+            background-color: blueviolet;
+        }
+
+        #div2 > .class2{
+            background-color: darkgreen;
+        }
+
+        .class3{
+            background-color: cyan;
+        }
+
+        .class3.class4{
+            background-color: olivedrab;
+        }
+
+        .class3 .class5{
+            background-color: gray;
+        }
+
+        header, article{
+            background-color: black;
+        }
+
+        [type]{
+            width: 100px;
+            height: 100px;
+        }
+
+        [type]:checked{
+            width: 70px;
+            height: 70px;
+        }
+
+        [type=radio]{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>A</div>
+    <hr/>
+    <div class="class1">B</div>
+    <hr/>
+    <div class="class1">C</div>
+    <hr/>
+    <div id="div1">D</div>
+    <hr/>
+    <div id="div2">
+        <div>E</div>
+        <div class="class2">F</div>
+        <div>G</div>
+        <div>
+            <div class="class2">H</div>
+        </div>
+    </div>
+    <hr/>
+    <div>I</div>
+    <hr/>
+    <hr/>
+    <p class="class3">J</p>
+    <p class="class3 class4">K</p>
+    <div class="class3">
+        L
+        <p class="class5">M</p>
+    </div>
+    <hr/>
+    <header>N</header>
+    <article>O</article>
+    <hr/>
+    <div>
+        <input type="checkbox"/>P
+        <input type="checkbox" checked/>Q
+        <input type="radio"/>R
+    </div>
+</body>
+</html>

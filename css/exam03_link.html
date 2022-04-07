@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none; /*밑줄이 사라지는 효-과*/
+        }
+
+        a:visited{ /*이미 한번 방문했던 것의 링크 글자색을 바꿈*/ 
+            color: green;
+        }
+
+        a:hover{
+            color: violet;
+        }
+
+        a:active{/*눌렀을 때!*/
+            color: brown;
+        }
+
+        a.btn{
+            border: 2px solid #abd5bd;
+            padding: 5px;
+        }
+
+        a.btn:hover{
+            background-color: lightcoral;
+            color: black;
+        }
+    </style>
+</head>
+<body>  
+    <a href="https://www.w3schools.com">w3schools</a>
+    <a href="https://www.apache.org">apache</a>
+    <a class="btn" href="https://www.apache.org">apache</a>
+</body>
+</html>
